@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    line-height: 1.;
+
+}
+h1{
+    font-family: sans-serif;
+}
+.Testimonials {
+    margin-top: 1.3rem;
+    background-color: rgb(170, 236, 236);
+    align-items: center;
+    justify-content: center;
+}
+.customer_say{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 3rem 0 3rem 22%;
+    align-items: center;
+}
+.tweets{
+    display: flex;
+    gap: 20px;
+    padding: 0 10% 3rem 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: ;
+    background: whitesmoke;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.about{
+    
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+.mini_profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.twitter i{
+    color: rgb(48, 121, 195);
+}
+.main > p{
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-family: sans-serif;
+    opacity: 0.6;
+    width: 300px;
+
+}
+.customer_section{
+    background-color: rgb(148, 228, 243);
+    margin: 1rem 0 1rem 0;
+    display: flex;
+}
+
+
+
+
+
+
+
+.pics > img{
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.3rem;
+}
+.likes{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.likes i{
+    color: red;
+}
+
+
+/*Pricing Section*/
+.pricing{
+    text-align: center;
+    margin: 3rem auto;
+    line-height: 1.9;
+    width: 22%;
+    
+}
+#monthly{
+    padding: 30px;
+}
+.monthly_details{
+    background-color: rgb(249, 245, 238);
+    width: 22%;
+    align-items: center;
+    margin: auto;
+    line-height: 1.8;
+    border-radius: 6px;
+}
+.price {
+    display: flex;
+    align-items: baseline;
+}
+hr{
+    width: 100%;
+    margin: auto;
+    color: aliceblue;
+    opacity: 0.6;
+    margin-bottom: 0.9rem;
+}
+#checks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 0.9rem;
+    
+}
+#checks p,
+.billing p{
+    opacity: 0.6;
+}
+#checks i{
+    color: rgb(7, 159, 7);
+}
+
+button{
+    background-color: rgb(88, 168, 249);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#click{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.monthly_details:hover,
+.main:hover{
+    border: 1px solid brown;
+}
+
+
+/*#check{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 10px;
+}*/
